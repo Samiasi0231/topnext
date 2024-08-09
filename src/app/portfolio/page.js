@@ -47,8 +47,9 @@ const Portfolio = () => {
       <div className="h-[600vh] relative" ref={ref}>
         <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
           My Work
+          <span><FaArrowDown className="h-10 w-10 rounded-full ring-4" /></span>
         </div>
-        <FaArrowDown className="h-10 w-10 rounded-full ring-4" />
+        
         <div className="sticky top-0 flex h-screen gap-2 items-center overflow-hidden">
           <motion.div style={{ x }} className="flex">
             <div className=" h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />

@@ -24,6 +24,14 @@ const About = () => {
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2">
           {/*Biography-container*/}
           <div className="flex flex-col gap-8 justify-center">
+          <div>
+            <Image
+              src="/snap.jpg" // Use correct path relative to the public folder
+              alt=""
+              width={40} // Adjust width as needed
+              height={40} // Adjust height as needed
+              className="rounded-full ring-blue-300"
+            /></div>
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY description */}
             <p className="text-lg">

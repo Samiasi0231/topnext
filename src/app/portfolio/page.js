@@ -1,6 +1,7 @@
 "use client";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
+import { FaArrowDown } from "react-icons/fa";
 import Image from "next/image";
 import { useRef } from "react";
 
@@ -47,6 +48,7 @@ const Portfolio = () => {
         <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
           My Work
         </div>
+        <FaArrowDown className="h-10 w-10 rounded-full ring-4" />
         <div className="sticky top-0 flex h-screen gap-2 items-center overflow-hidden">
           <motion.div style={{ x }} className="flex">
             <div className=" h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />

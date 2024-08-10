@@ -135,8 +135,7 @@ const About = () => {
                   {/* Job desc*/}
                   <div className="p-3 text-sm italic">
                     Develop and maintain websites using HTML, CSS, JavaScript,
-                    and other relevant web technologies. Ensure the technical
-                    feasibility of UI/UX designs. Optimize applications for
+                    and other relevant web technologies.Optimize applications for
                     maximum speed and scalability.
                   </div>
                   {/* Job date*/}
@@ -176,17 +175,17 @@ const About = () => {
                 <div className="w-1/3">
                   {/*Job Title*/}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Front-End Developer (MERN Stack)
+                    (MERN Stack) Developer 
                   </div>
                   {/* Job desc*/}
                   <div className="p-3 text-sm italic">
                     Design, develop, and maintain scalable web applications
                     using MongoDB, Express.js, React, and Node.js (MERN). Write
-                    clean, maintainable, and efficient code. Ensure the
+                     maintainable, and efficient code. Ensure the
                     technical feasibility of UI/UX designs. Develop RESTful APIs
                     and integrate with front-end components. Manage databases
                     and perform server-side logic using Node.js and Express.js.
-                    Optimize applications for performance and scalability.
+                    Optimize performance and scalability.
                   </div>
                   {/* Job date*/}
                   <div className="p-3 text-red-400 text-sm font-semibold">
@@ -210,8 +209,7 @@ const About = () => {
                   {/* Job desc*/}
                   <div className="p-3 text-sm italic">
                     Develop and manage web applications and integrate front-end
-                    and back-end systems. Implement responsive design for mobile
-                    and desktop users. Work closely with designers, developers,
+                    and back-end systems.Work closely with designers, developers,
                     and project managers to deliver high-quality products.
                     Participate in code reviews and contribute to team knowledge
                     sharing. Perform testing and debugging of web applications.

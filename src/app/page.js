@@ -22,7 +22,7 @@ const HomePage = () => {
           />
         </div>
         {/* Text container */}
-        <div className="h-full lg:w-1/2 flex flex-col gap-4 items-center justify-center mt-4 lg:mt-0 lg:ml-8">
+        <div className="h-full lg:w-1/2 flex flex-col gap-4 items-center justify-center mt-2 lg:mt-0 lg:ml-8">
           <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-center lg:text-left">
             Creating Digital Experiences, Designing Tomorrow.
           </h1>

@@ -75,14 +75,14 @@ const Contact = () => {
               className="rounded-full ring-blue-300"
             />
             <h1 className="text-sm">
-              NAME:{" "}
+              NAME:
               <span className="text-red-400">
                 SAMUEL ASIMETAMUNOPIRI
               </span>
             </h1>
           </div>
 
-          <span className="text-lg sm:text-xl">Write your invite message!</span>
+          <span className="text-lg sm:text-sm">Write your invite message!</span>
           <textarea
             rows={4}
             className="bg-transparent border-b-2 border-b-black outline-none resize-none p-2"

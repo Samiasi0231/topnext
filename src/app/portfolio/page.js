@@ -104,7 +104,7 @@ const Portfolio = () => {
             aria-label="Hire me"
             className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-red-300 text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-black hover:text-white"
           >
-            Hire me
+            click me!
           </Link>
         </div>
       </div>

@@ -45,7 +45,7 @@ const Portfolio = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-[600vh] relative" ref={ref}>
-        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
+        <div className="w-screen h-[calc(100vh-6rem)] flex flex-col items-center justify-center text-8xl text-center">
           My Work
           <span><FaArrowDown className="h-10 w-10 rounded-full ring-4" /></span>
         </div>

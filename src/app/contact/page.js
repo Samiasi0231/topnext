@@ -42,7 +42,7 @@ const Contact = () => {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* Text container */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center text-6xl">
+        <div className="h-1/3 lg:h-full lg:w-1/2 flex items-center text-6xl">
           <div>
             {text.split("").map((letter, index) => (
               <motion.span
@@ -70,13 +70,13 @@ const Contact = () => {
             <Image
               src="/snap.jpg" // Use correct path relative to the public folder
               alt=""
-              width={40} // Adjust width as needed
-              height={40} // Adjust height as needed
+              width={30} // Adjust width as needed
+              height={30} // Adjust height as needed
               className="rounded-full ring-blue-300"
             />
-            <h1 className="text-xl">
+            <h1 className="text-sm">
               NAME:
-              <span className="text-xl text-red-400">
+              <span className="text-sm text-red-400">
                 SAMUEL ASIMETAMUNOPIRI
               </span>
             </h1>

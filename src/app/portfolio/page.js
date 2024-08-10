@@ -95,7 +95,7 @@ const Portfolio = () => {
             </defs>
             <text fill="#000">
               <textPath xlinkHref="#circlePath" className="text-xl">
-                Font-end and Backend Developer (MERN)
+                Front-end/Backend Developer(MERN)
               </textPath>
             </text>
           </motion.svg>
@@ -104,7 +104,7 @@ const Portfolio = () => {
             aria-label="Hire me"
             className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-red-300 text-white rounded-full flex items-center justify-center cursor-pointer hover:bg-black hover:text-white"
           >
-            click me!
+            Click Me!
           </Link>
         </div>
       </div>

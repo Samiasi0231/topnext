@@ -28,7 +28,7 @@ const HomePage = () => {
           </h1>
           <p className="md:text-lg text-center lg:text-left">
             Transforming ideas into digital realities. Welcome to my portfolio! 
-            I'm a web developer passionate about bringing ideas to life online. 
+            I&apos;m a web developer passionate about bringing ideas to life online. 
             Dive in to discover how I bring visions to life online. 
             Thank you for visiting, and enjoy the journey!
           </p>

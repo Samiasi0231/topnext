@@ -35,7 +35,7 @@ const Contact = () => {
   const text = "Say Hello!";
   return (
     <motion.div
-      className="min-h-screen"
+      className="h-full"
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}

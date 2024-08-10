@@ -6,7 +6,7 @@ import Link from "next/link";
 const HomePage = () => {
   return (
     <motion.div
-      className="min-h-screen"
+      className="h-full"
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
       transition={{ duration: "1" }}

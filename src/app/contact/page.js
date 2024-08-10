@@ -35,14 +35,14 @@ const Contact = () => {
   const text = "Say Hello!";
   return (
     <motion.div
-      className="h-full"
+      className="min-h-screen"
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+      <div className="flex flex-col lg:flex-row px-4 sm:px-6 md:px-8 lg:px-20 xl:px-48">
         {/* Text container */}
-        <div className="h-1/3 lg:h-full lg:w-1/2 flex items-center text-6xl">
+        <div className="lg:w-1/2 flex items-center justify-center text-4xl sm:text-5xl md:text-6xl mb-8 lg:mb-0">
           <div>
             {text.split("").map((letter, index) => (
               <motion.span
@@ -64,33 +64,33 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-6 justify-center p-24"
+          className="lg:w-1/2 bg-red-50 rounded-xl text-lg sm:text-xl flex flex-col gap-4 sm:gap-6 justify-center p-4 sm:p-6 md:p-8 lg:p-12"
         >
-          <div className="mt-2">
+          <div className="flex items-center gap-2">
             <Image
-              src="/snap.jpg" // Use correct path relative to the public folder
+              src="/snap.jpg"
               alt=""
-              width={30} // Adjust width as needed
-              height={30} // Adjust height as needed
+              width={30}
+              height={30}
               className="rounded-full ring-blue-300"
             />
             <h1 className="text-sm">
-              NAME:
-              <span className="text-sm text-red-400">
+              NAME:{" "}
+              <span className="text-red-400">
                 SAMUEL ASIMETAMUNOPIRI
               </span>
             </h1>
           </div>
 
-          <span className="text-xl">Write your invite message!</span>
+          <span className="text-lg sm:text-xl">Write your invite message!</span>
           <textarea
-            rows={6}
+            rows={4}
             className="bg-transparent border-b-2 border-b-black outline-none resize-none p-2"
             name="user_message"
             placeholder="Enter your message here"
           />
 
-          <span className="text-xl">email address is:</span>
+          <span className="text-lg sm:text-xl">Email address:</span>
           <input
             name="user_email"
             type="email"
